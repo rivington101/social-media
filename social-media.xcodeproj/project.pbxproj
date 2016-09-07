@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D057DAFA1D800DAB006255F4 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D057DAF91D800DAB006255F4 /* CustomTextField.swift */; };
+		D057DAFC1D800FCE006255F4 /* SignInBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D057DAFB1D800FCE006255F4 /* SignInBtn.swift */; };
+		D0C73B3D1D800AFB00AE3A43 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C73B3C1D800AFB00AE3A43 /* RoundBtn.swift */; };
 		D0DB5BD51D7EB00C00681801 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DB5BD41D7EB00C00681801 /* AppDelegate.swift */; };
 		D0DB5BD71D7EB00C00681801 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DB5BD61D7EB00C00681801 /* SignInVC.swift */; };
 		D0DB5BDA1D7EB00C00681801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DB5BD81D7EB00C00681801 /* Main.storyboard */; };
 		D0DB5BDC1D7EB00C00681801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DB5BDB1D7EB00C00681801 /* Assets.xcassets */; };
 		D0DB5BDF1D7EB00C00681801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DB5BDD1D7EB00C00681801 /* LaunchScreen.storyboard */; };
 		D0DB5BE71D7EB19C00681801 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0DB5BE61D7EB19C00681801 /* GoogleService-Info.plist */; };
+		D0ED5C2D1D800478009834EE /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ED5C2C1D800478009834EE /* CustomView.swift */; };
+		D0ED5C301D8005A2009834EE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ED5C2F1D8005A2009834EE /* Constants.swift */; };
 		D1880F930C260D1CCDBE4307 /* Pods_social_media.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E4615B88F1E4ADFE69299E /* Pods_social_media.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		207D98A1D9E86D9F0F2CD3DB /* Pods-social-media.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-social-media.debug.xcconfig"; path = "Pods/Target Support Files/Pods-social-media/Pods-social-media.debug.xcconfig"; sourceTree = "<group>"; };
+		D057DAF91D800DAB006255F4 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		D057DAFB1D800FCE006255F4 /* SignInBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInBtn.swift; sourceTree = "<group>"; };
+		D0C73B3C1D800AFB00AE3A43 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		D0DB5BD11D7EB00C00681801 /* social-media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "social-media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DB5BD41D7EB00C00681801 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0DB5BD61D7EB00C00681801 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -26,6 +34,8 @@
 		D0DB5BDE1D7EB00C00681801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0DB5BE01D7EB00C00681801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0DB5BE61D7EB19C00681801 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0ED5C2C1D800478009834EE /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		D0ED5C2F1D8005A2009834EE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E8E4615B88F1E4ADFE69299E /* Pods_social_media.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_social_media.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69650504E77E3D604310046 /* Pods-social-media.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-social-media.release.xcconfig"; path = "Pods/Target Support Files/Pods-social-media/Pods-social-media.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +90,7 @@
 		D0DB5BD31D7EB00C00681801 /* social-media */ = {
 			isa = PBXGroup;
 			children = (
+				D0ED5C2E1D800585009834EE /* Util */,
 				D0EDFFDC1D7EF1EC00CB69A3 /* Model */,
 				D0EDFFDD1D7EF1F500CB69A3 /* View */,
 				D0EDFFDE1D7EF1FD00CB69A3 /* Controller */,
@@ -93,6 +104,14 @@
 			path = "social-media";
 			sourceTree = "<group>";
 		};
+		D0ED5C2E1D800585009834EE /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D0ED5C2F1D8005A2009834EE /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		D0EDFFDC1D7EF1EC00CB69A3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +122,10 @@
 		D0EDFFDD1D7EF1F500CB69A3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D0ED5C2C1D800478009834EE /* CustomView.swift */,
+				D0C73B3C1D800AFB00AE3A43 /* RoundBtn.swift */,
+				D057DAF91D800DAB006255F4 /* CustomTextField.swift */,
+				D057DAFB1D800FCE006255F4 /* SignInBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -240,8 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D057DAFC1D800FCE006255F4 /* SignInBtn.swift in Sources */,
+				D0ED5C2D1D800478009834EE /* CustomView.swift in Sources */,
+				D0C73B3D1D800AFB00AE3A43 /* RoundBtn.swift in Sources */,
+				D057DAFA1D800DAB006255F4 /* CustomTextField.swift in Sources */,
 				D0DB5BD71D7EB00C00681801 /* SignInVC.swift in Sources */,
 				D0DB5BD51D7EB00C00681801 /* AppDelegate.swift in Sources */,
+				D0ED5C301D8005A2009834EE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
